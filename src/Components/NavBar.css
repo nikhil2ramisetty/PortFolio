@@ -1,0 +1,44 @@
+.navbar{
+    
+    background-color: rgb(177, 51, 51);
+    width: 20%;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    position: fixed;
+    animation: move 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    float: left;
+}
+.navbar ul{
+    list-style-type:none;
+    padding: 0;
+    /* width: 100%; */
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    align-items: center;
+
+}
+.navbar ul li{
+    text-align: center;
+    padding: 16px 10px;
+    margin-bottom: 4px;
+    transition: all 0.2s ease-in;
+}
+.navbar ul li:hover{
+    background-color: rgb(202, 231, 231);
+    color: black;
+}
+.navbar ul li:focus{
+    background-color: rgb(202, 231, 231);
+    color: black;
+}
+
+
+@keyframes move {
+    from{left:-10%}
+    to{left:0%}
+}
