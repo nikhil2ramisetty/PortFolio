@@ -48,6 +48,8 @@ const Projects = (props) => {
             <h1 className="Heading">Projects</h1>
             <hr />
             <div className='Slider'>
+                <i class="fa fa-chevron-left left" onClick={leftClick} ></i>
+                <i class="fa fa-chevron-right right" onClick={rightClick}></i>
                 {projectData.map((object) => <Project curr={curr}object={object} key={object.id} leftClick={leftClick} rightClick={rightClick}/>)}
             </div>
             <p>*Codes can be found at the github account attached at Home page*</p>
