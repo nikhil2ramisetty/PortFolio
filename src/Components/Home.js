@@ -1,4 +1,4 @@
-import Nikhil from './DP.jpg'
+import Nikhil from './DP1.jpg'
 import './Home.css'
 const Home = (props) => {
     return(
